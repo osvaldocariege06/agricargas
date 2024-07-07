@@ -13,7 +13,7 @@ export default function Citation() {
         Discover the benefits of working with us
       </h3>
 
-      <div className="w-full items-center justify-between">
+      <div className="flex w-full items-center justify-between">
         <div className="flex flex-col gap-4">
           <div className="flex items-start gap-2">
             <Image
