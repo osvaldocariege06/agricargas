@@ -6,33 +6,33 @@ import { ChevronDown } from 'lucide-react'
 
 export default function Header() {
   return (
-    <header className="absolute top-0 left-0 right-0 flex justify-between items-center py-6 max-w-[1113px] w-full mx-auto">
+    <header className="absolute left-0 right-0 top-0 mx-auto flex w-full max-w-[1113px] items-center justify-between py-6">
       <Image
         src={Logo}
         alt="Agricargas Logo"
         width={154}
         height={35}
-        className="w-[154px] h-[35px]"
+        className="h-[35px] w-[154px]"
       />
       <nav className="flex items-center gap-4">
-        <span className="text-white font-medium text-sm cursor-pointer active:scale-95 transition-all">
+        <span className="cursor-pointer text-sm font-medium text-white transition-all active:scale-95">
           Home
         </span>
-        <span className="text-white font-medium text-sm cursor-pointer active:scale-95 transition-all flex gap-2 items-center">
+        <span className="flex cursor-pointer items-center gap-2 text-sm font-medium text-white transition-all active:scale-95">
           Our products
           <ChevronDown color="#fff" />
         </span>
-        <span className="text-white font-medium text-sm cursor-pointer active:scale-95 transition-all flex gap-2 items-center">
+        <span className="flex cursor-pointer items-center gap-2 text-sm font-medium text-white transition-all active:scale-95">
           Benefits avaliables to partners
           <ChevronDown color="#fff" />
         </span>
-        <span className="text-white font-medium text-sm cursor-pointer active:scale-95 transition-all">
+        <span className="cursor-pointer text-sm font-medium text-white transition-all active:scale-95">
           Partners
         </span>
       </nav>
 
-      <div className="flex gap-3 items-center">
-        <span className="text-white font-semibold text-sm cursor-pointer active:scale-95 transition-all flex gap-1 items-center">
+      <div className="flex items-center gap-3">
+        <span className="flex cursor-pointer items-center gap-1 text-sm font-semibold text-white transition-all active:scale-95">
           EN
           <ChevronDown color="#fff" />
         </span>

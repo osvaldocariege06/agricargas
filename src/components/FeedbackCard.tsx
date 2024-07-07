@@ -14,7 +14,7 @@ export default function FeedbackCard({
   image,
 }: IFeedbackCard) {
   return (
-    <div className="relative w-[356px] h-[263px] bg-zinc-100 px-6">
+    <div className="relative h-[263px] w-[356px] bg-zinc-100 px-6">
       <Image
         src={image}
         alt={name}
@@ -22,10 +22,10 @@ export default function FeedbackCard({
         height={100}
         className="absolute -top-11 left-[32px]"
       />
-      <p className="mt-24 font-bold text-base">{name}</p>
-      <p className="text-zinc-400 text-sm mt-[6px]">{description}</p>
+      <p className="mt-24 text-base font-bold">{name}</p>
+      <p className="mt-[6px] text-sm text-zinc-400">{description}</p>
 
-      <div className="flex justify-end items-center w-full mt-[46px]">
+      <div className="mt-[46px] flex w-full items-center justify-end">
         <Image src={VectorGreen} alt={name} width={20} height={14} />
       </div>
     </div>

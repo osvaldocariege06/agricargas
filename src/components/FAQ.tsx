@@ -3,15 +3,15 @@ import { Faqs } from './Faqs'
 
 export default function FAQ() {
   return (
-    <div className="pb-28 max-w-[1113px] w-full mx-auto">
-      <h2 className="text-[#57AC49] font-bold text-xl uppercase">06. FAQs</h2>
+    <div className="mx-auto w-full max-w-[1113px] pb-28">
+      <h2 className="text-xl font-bold uppercase text-[#57AC49]">06. FAQs</h2>
 
-      <div className="mt-5 flex justify-between items-start">
+      <div className="mt-5 flex items-start justify-between">
         <div className="">
-          <h2 className="text-[40px] font-mochiyPop max-w-[416px]">
+          <h2 className="max-w-[416px] font-mochiyPop text-[40px]">
             Frequently asked questions
           </h2>
-          <p className="max-w-[350px] text-zinc-400 text-base mt-6">
+          <p className="mt-6 max-w-[350px] text-base text-zinc-400">
             Use our built-in analytics dashboard to pull valuable insights and
             monitor the value of your Krypto portfolio over time.{' '}
           </p>

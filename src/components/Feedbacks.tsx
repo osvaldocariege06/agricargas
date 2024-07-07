@@ -4,12 +4,12 @@ import FeedbackCard from './FeedbackCard'
 
 export default function Feedbacks() {
   return (
-    <div className="py-28 max-w-[1113px] w-full mx-auto">
-      <h2 className="text-[#57AC49] font-bold text-xl uppercase">
+    <div className="mx-auto w-full max-w-[1113px] py-28">
+      <h2 className="text-xl font-bold uppercase text-[#57AC49]">
         05. OUR FEEDBACKS
       </h2>
 
-      <div className="grid grid-cols-3 gap-6 mt-20">
+      <div className="mt-20 grid grid-cols-3 gap-6">
         <FeedbackCard
           name="Ana Carolina"
           image={feedback01}

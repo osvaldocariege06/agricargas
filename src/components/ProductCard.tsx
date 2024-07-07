@@ -24,13 +24,13 @@ export default function ProductCard({
       >
         We import
       </span>
-      <div className="flex items-center gap-1 mt-2">
+      <div className="mt-2 flex items-center gap-1">
         <span
-          className={`font-bold text-base ${theme === 'dark' ? 'text-white' : 'text-[#57AC49]'}`}
+          className={`text-base font-bold ${theme === 'dark' ? 'text-white' : 'text-[#57AC49]'}`}
         >
           {fruit}
         </span>
-        <span className="w-[17px] h-[17px] flex justify-center items-center rounded-full bg-[#57AC49]">
+        <span className="flex h-[17px] w-[17px] items-center justify-center rounded-full bg-[#57AC49]">
           <Image src={ArrowRight} alt="ArrowRight" />
         </span>
       </div>

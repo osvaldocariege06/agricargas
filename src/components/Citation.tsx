@@ -6,10 +6,10 @@ import React from 'react'
 export default function Citation() {
   return (
     <div className="mx-auto w-full max-w-[1113px] py-28">
-      <h2 className="text-xl font-bold uppercase text-[#57AC49">
+      <h2 className="text-[#57AC49 text-xl font-bold uppercase">
         03. CITATION
       </h2>
-      <h3 className=" max-w-[496px] font-mochiyPop text-[40px]">
+      <h3 className="max-w-[496px] font-mochiyPop text-[40px]">
         Discover the benefits of working with us
       </h3>
 

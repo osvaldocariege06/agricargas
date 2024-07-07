@@ -15,13 +15,13 @@ export function Faqs({ text, description }: IFaqs) {
       <div className="mb-4">
         <button
           onClick={() => setTouch(!touch)}
-          className={`flex -center gap-2 active:scale-95 transition-all ${touch && 'text-[#57AC49]'}`}
+          className={`-center flex gap-2 transition-all active:scale-95 ${touch && 'text-[#57AC49]'}`}
         >
           <Plus fill="red" fontWeight={'bold'} />
           <span className="font-mochiyPop text-base">{text}</span>
         </button>
         {touch && (
-          <p className="text-zinc-400 max-w-[375px] ml-8 mt-3">{description}</p>
+          <p className="ml-8 mt-3 max-w-[375px] text-zinc-400">{description}</p>
         )}
       </div>
     </div>

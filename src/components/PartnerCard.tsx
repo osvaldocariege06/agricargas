@@ -9,14 +9,14 @@ interface IPartnerCard {
 
 export default function PartnerCard({ name, company, image }: IPartnerCard) {
   return (
-    <div className="relative w-[261px] h-[337px] rounded overflow-hidden hover:scale-110 transition-all">
+    <div className="relative h-[337px] w-[261px] overflow-hidden rounded transition-all hover:scale-110">
       <Image
         src={image}
         alt="Partners"
-        className="absolute z-0 top-0 left-0 bottom-0 right-0"
+        className="absolute bottom-0 left-0 right-0 top-0 z-0"
       />
-      <div className="relative z-20 linear-gradient w-[261px] h-[337px] flex flex-col gap-[2px] justify-end p-6">
-        <span className="text-[#57AC49] font-medium text-xs">{company}</span>
+      <div className="linear-gradient relative z-20 flex h-[337px] w-[261px] flex-col justify-end gap-[2px] p-6">
+        <span className="text-xs font-medium text-[#57AC49]">{company}</span>
         <span className="font-mochiyPop text-sm text-white">{name}</span>
       </div>
     </div>
