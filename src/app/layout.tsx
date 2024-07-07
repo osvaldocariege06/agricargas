@@ -9,7 +9,7 @@ const poppins = Poppins({
   weight: ['400', '500', '700', '800', '900'],
 })
 const myFont = localFont({
-  src: './../assets/fonts/Mochiy_Pop_One/MochiyPopOne-regular.ttf',
+  src: './../assets/fonts/mochiy-pop-one/mochiyPopOne-regular.ttf',
   variable: '--font-mochiy-pop',
 })
 export const metadata: Metadata = {
