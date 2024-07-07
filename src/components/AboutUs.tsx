@@ -4,7 +4,7 @@ import { ArrowRightIcon } from 'lucide-react'
 export default function AboutUs() {
   return (
     <div className="flex items-end justify-between py-28 max-w-[1113px] w-full mx-auto">
-      <div className="">
+      <div>
         <h2 className="text-[#57AC49] font-bold text-xl uppercase">
           01. AboutUs
         </h2>
