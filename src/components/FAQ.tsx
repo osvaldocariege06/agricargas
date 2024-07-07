@@ -3,7 +3,7 @@ import { Faqs } from './Faqs'
 
 export default function FAQ() {
   return (
-    <div className="px-40 pb-28">
+    <div className="pb-28 max-w-[1113px] w-full mx-auto">
       <h2 className="text-[#57AC49] font-bold text-xl uppercase">06. FAQs</h2>
 
       <div className="mt-5 flex justify-between items-start">

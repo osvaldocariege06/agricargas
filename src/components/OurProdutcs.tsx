@@ -13,7 +13,7 @@ import ProductCard from './ProductCard'
 
 export default function OurProdutcs() {
   return (
-    <div className="px-40 py-28">
+    <div className="py-28 max-w-[1113px] w-full mx-auto">
       <h2 className="text-[#57AC49] font-bold text-xl uppercase">
         02. OUR PRODUCTS
       </h2>

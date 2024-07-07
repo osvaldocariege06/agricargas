@@ -6,7 +6,7 @@ import { ChevronDown } from 'lucide-react'
 
 export default function Header() {
   return (
-    <header className="absolute top-0 left-0 right-0 flex justify-between items-center px-40 py-6">
+    <header className="absolute top-0 left-0 right-0 flex justify-between items-center py-6 max-w-[1113px] w-full mx-auto">
       <Image
         src={Logo}
         alt="Agricargas Logo"

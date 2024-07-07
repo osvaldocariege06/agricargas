@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Statistics() {
   return (
-    <div className="flex justify-between items-center px-40 pb-28 pt-8">
+    <div className="flex justify-between items-center pb-28 pt-8 max-w-[1113px] w-full mx-auto">
       <div className="flex flex-col justify-center items-center gap-4">
         <span className="text-[#57AC49] font-mochiyPop text-5xl">
           200,000.00

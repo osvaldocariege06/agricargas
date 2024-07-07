@@ -4,7 +4,7 @@ import { partners01, partners02, partners03, partners04 } from '@/assets'
 
 export default function Partners() {
   return (
-    <div className="px-40 py-28">
+    <div className="pb-28 pt-14 max-w-[1113px] w-full mx-auto">
       <h2 className="text-[#57AC49] font-bold text-xl uppercase">
         04. Partners
       </h2>

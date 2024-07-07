@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Citation() {
   return (
-    <div className="px-40 py-28">
+    <div className="py-28 max-w-[1113px] w-full mx-auto">
       <h2 className="text-[#57AC49] font-bold text-xl uppercase">
         03. CITATION
       </h2>

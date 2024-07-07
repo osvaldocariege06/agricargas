@@ -7,7 +7,7 @@ import Button from './Button'
 
 export default function Footer() {
   return (
-    <footer className="px-40 pt-20 pb-8">
+    <footer className="pt-20 pb-8 max-w-[1113px] w-full mx-auto">
       <div className="flex justify-between">
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-3">
